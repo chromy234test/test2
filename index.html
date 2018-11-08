@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Edge extendsion & UWP Demo</title>
+</head>
+<body>
+    <table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <h1>Encrypt message from cards</h1>
+            </td>
+        </tr>
+    </table>
+    <tr>
+        <input type="button" id="ConnectButton" name="ConnectButton" value="Connect">
+        <input type="button" id="DisconnectButton" name="DisconnectButton" value="Disconnect" disabled>
+    </tr>
+    <hr />
+    <label>
+        <h3>Secure Input</h3>
+    </label>
+
+    <label>
+        Please Input Your Password：
+        <br />
+        <input id="Password" name="PasswordInput" , type="text">
+        <input type="button" id="SubmitButton" name="SubmitButton" value="Submit" disabled>
+    </label>
+    <br />
+    <br />
+    <label>
+        Encrypted Password：
+        <br />
+        <textarea id="EncryptedPassword" rows="8" style="width: 650px"></textarea>
+    </label>
+    <br />
+
+	<label>
+        Connect Your Certificates：
+        <br />
+        <input type="button" id="CertificateButton" name="CertificateButton" value="Get Certificates" disabled>
+		<br />
+		<input id="CertificateText" name="CertificateText" , type="text">
+    </label>
+	<br />
+    <br />
+	<label>
+        Connect Your Device:
+        <br />
+        <input type="button" id="DeviceButton" name="DeviceButton" value="Get Device" disabled>
+		<br />
+		<input id="HardwareText" name="HardwareText" , type="text">
+    </label>
+	<br />
+    <br />
+	<label>
+        Message To be encrypted:       
+		<br />
+		<input id="MessageText" name="MessageText" , type="text">
+		<br />
+		<input type="button" id="EncryptMessageButton" name="EncryptMessageButton" value="Encrypt" disabled>
+		<br />
+		<textarea id="EncryptedMessage" rows="8" style="width: 650px"></textarea>
+    </label>
+	<br />
+    <br />
+	<label>
+        Message To be encrypted:
+        <br />
+        <input type="button" id="DecryptMessageButton" name="DecryptMessageButton" value="Decrypt" disabled>
+		<br />
+		<textarea id="DecryptedMessage" rows="8" style="width: 650px"></textarea>
+    </label>
+	<br />
+    <br />
+	
+</body>
+</html>
